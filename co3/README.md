@@ -1,14 +1,26 @@
-def process_transaction(account_id: str, amount: float, is_deposit: bool) -> str:
-    """
-    Processes a banking transaction with PEP 484 type hints.
-    """
-    if amount <= 0:
-        raise ValueError("Transaction amount must be greater than zero.")
-    
-    action = "deposited into" if is_deposit else "withdrawn from"
-    return f"Successfully {action} account {account_id}: ${amount:.2f}"
+Question 1: PEP 484-Style Type Hints for a Transaction Function
 
-# --- Example Usage ---
-if __name__ == "__main__":
-    result = process_transaction("ACC-98765", 1500.75, True)
-    print(result)
+#1. Algorithm
+Define Function Signature: Create a function named process_transaction taking explicit type hints: account_id (string), amount (float), and is_deposit (boolean), returning a string.
+
+Validate Input: Check if the transaction amount is valid (greater than zero). If not, raise a ValueError.
+
+Process Transaction: Format the message based on whether it is a deposit or a withdrawal.
+
+Return Result: Return the transaction success message.
+
+#2. Pseudocode
+Plaintext
+FUNCTION process_transaction(account_id: str, amount: float, is_deposit: bool) -> str
+    IF amount <= 0 THEN
+        RAISE Error("Amount must be greater than zero")
+    END IF
+    
+    IF is_deposit THEN
+        SET action = "deposited into"
+    ELSE
+        SET action = "withdrawn from"
+    END IF
+    
+    RETURN confirmation_message
+END FUNCTION
