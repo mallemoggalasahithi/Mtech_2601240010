@@ -1,26 +1,17 @@
-Question 1: PEP 484-Style Type Hints for a Transaction Function
+## 1. High-Throughput Web Crawler
 
-#1. Algorithm
-Define Function Signature: Create a function named process_transaction taking explicit type hints: account_id (string), amount (float), and is_deposit (boolean), returning a string.
+* **Objective:** Fetch multiple URLs concurrently using an asynchronous queue and semaphore to manage network throughput and rate limits efficiently.
 
-Validate Input: Check if the transaction amount is valid (greater than zero). If not, raise a ValueError.
+* **Input:** A list of URL strings (e.g., `['https://example.com/page/1', ...]`).
 
-Process Transaction: Format the message based on whether it is a deposit or a withdrawal.
+* **Output:** Simulation logs showing start and finish times for each download, along with total execution time.
 
-Return Result: Return the transaction success message.
+* **Algorithm:**
+  1. Initialize an `asyncio.Queue` loaded with the target URLs and an `asyncio.Semaphore` to cap concurrent requests.
+  2. Spawn multiple worker coroutines running concurrently.
+  3. Each worker pulls a URL from the queue, acquires the semaphore lock, simulates network fetching via an asynchronous delay, and marks the queue task as done.
+  4. Block the main execution using `queue.join()` until all items are processed, then cancel active workers.
 
-#2. Pseudocode
-Plaintext
-FUNCTION process_transaction(account_id: str, amount: float, is_deposit: bool) -> str
-    IF amount <= 0 THEN
-        RAISE Error("Amount must be greater than zero")
-    END IF
-    
-    IF is_deposit THEN
-        SET action = "deposited into"
-    ELSE
-        SET action = "withdrawn from"
-    END IF
-    
-    RETURN confirmation_message
-END FUNCTION
+* **Time Complexity:** O(N / C) where $N$ is the number of URLs and $C$ is the concurrency limit.
+
+* **Space Complexity:** O(N + C) to store queue elements and worker task references.
