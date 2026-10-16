@@ -1,0 +1,33 @@
+Timestamp,Source,Event Type,User,Description,Severity
+2026-10-05 10:07:45,AUTH,LOGIN_SUCCESS,user1,Successful authentication,INFO
+2026-10-05 10:08:14,SYSTEM,BOOT,system,System boot completed,INFO
+2026-10-05 10:09:58,APPLICATION,LOGIN,admin,Administrator logged into application,INFO
+2026-10-05 10:10:21,AUTH,LOGIN_SUCCESS,admin,Successful authentication,INFO
+2026-10-05 10:11:05,SYSTEM,SERVICE_START,system,Event Log service started,INFO
+2026-10-05 10:12:36,BROWSER,WEBSITE_ACCESS,user1,Accessed email service,INFO
+2026-10-05 10:13:42,APPLICATION,FILE_OPEN,user1,Opened project_document.docx,INFO
+2026-10-05 10:14:27,BROWSER,SEARCH,user1,Searched for confidential document,WARNING
+2026-10-05 10:15:32,SYSTEM,PROCESS_START,admin,Windows Update service started,INFO
+2026-10-05 10:16:33,APPLICATION,SEARCH,user1,Searched for confidential files,WARNING
+2026-10-05 10:17:22,BROWSER,WEBSITE_ACCESS,user1,Accessed company internal portal,INFO
+2026-10-05 10:18:26,SYSTEM,PROCESS_START,user1,Browser process started,INFO
+2026-10-05 10:19:54,AUTH,LOGIN_SUCCESS,user1,Successful authentication,INFO
+2026-10-05 10:20:11,APPLICATION,LOGIN,user1,User logged into application,INFO
+2026-10-05 10:21:08,BROWSER,WEBSITE_ACCESS,user1,Accessed cloud storage,INFO
+2026-10-05 10:22:47,SYSTEM,FILE_ACCESS,admin,Accessed confidential_report.pdf,WARNING
+2026-10-05 10:23:49,AUTH,LOGIN_FAILED,user1,Failed authentication attempt,WARNING
+2026-10-05 10:24:15,APPLICATION,FILE_UPLOAD,user1,Uploaded assignment.pdf,INFO
+2026-10-05 10:26:52,BROWSER,WEBSITE_ACCESS,admin,Accessed security dashboard,INFO
+2026-10-05 10:27:36,APPLICATION,DOWNLOAD,user1,Downloaded suspicious_attachment.zip,WARNING
+2026-10-05 10:28:05,AUTH,LOGIN_FAILED,user1,Failed authentication attempt,WARNING
+2026-10-05 10:29:41,BROWSER,DOWNLOAD,user1,Downloaded unknown_file.exe,WARNING
+2026-10-05 10:30:16,AUTH,PASSWORD_CHANGE,user1,User password changed,WARNING
+2026-10-05 10:31:18,SYSTEM,FILE_DELETE,user1,Deleted temporary evidence file,WARNING
+2026-10-05 10:33:44,APPLICATION,LOGOUT,user1,User logged out of application,INFO
+2026-10-05 10:34:21,AUTH,PRIVILEGE_CHANGE,user1,User privileges modified,ERROR
+2026-10-05 10:35:09,SYSTEM,USB_INSERT,user1,USB storage device connected,WARNING
+2026-10-05 10:36:55,BROWSER,SEARCH,user1,Searched for password recovery tools,WARNING
+2026-10-05 10:38:32,AUTH,SESSION_END,user1,User authentication session ended,INFO
+2026-10-05 10:39:27,APPLICATION,ERROR,system,Application encountered unexpected error,ERROR
+2026-10-05 10:41:13,BROWSER,DOWNLOAD,user1,Downloaded report.zip,INFO
+2026-10-05 10:42:51,SYSTEM,SHUTDOWN,system,System shutdown initiated,INFO

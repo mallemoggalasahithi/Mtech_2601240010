@@ -1,0 +1,8 @@
+2026-10-05 10:10:21 | AUTH | LOGIN_SUCCESS | admin | Successful authentication | INFO
+2026-10-05 10:23:49 | AUTH | LOGIN_FAILED | user1 | Failed authentication attempt | WARNING
+2026-10-05 10:30:16 | AUTH | PASSWORD_CHANGE | user1 | User password changed | WARNING
+2026-10-05 10:07:45 | AUTH | LOGIN_SUCCESS | user1 | Successful authentication | INFO
+2026-10-05 10:28:05 | AUTH | LOGIN_FAILED | user1 | Failed authentication attempt | WARNING
+2026-10-05 10:38:32 | AUTH | SESSION_END | user1 | User authentication session ended | INFO
+2026-10-05 10:19:54 | AUTH | LOGIN_SUCCESS | user1 | Successful authentication | INFO
+2026-10-05 10:34:21 | AUTH | PRIVILEGE_CHANGE | user1 | User privileges modified | ERROR

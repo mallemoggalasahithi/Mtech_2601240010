@@ -1,0 +1,258 @@
+[
+    {
+        "timestamp": "2026-10-05 10:07:45",
+        "source": "AUTH",
+        "event_type": "LOGIN_SUCCESS",
+        "user": "user1",
+        "description": "Successful authentication",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:08:14",
+        "source": "SYSTEM",
+        "event_type": "BOOT",
+        "user": "system",
+        "description": "System boot completed",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:09:58",
+        "source": "APPLICATION",
+        "event_type": "LOGIN",
+        "user": "admin",
+        "description": "Administrator logged into application",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:10:21",
+        "source": "AUTH",
+        "event_type": "LOGIN_SUCCESS",
+        "user": "admin",
+        "description": "Successful authentication",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:11:05",
+        "source": "SYSTEM",
+        "event_type": "SERVICE_START",
+        "user": "system",
+        "description": "Event Log service started",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:12:36",
+        "source": "BROWSER",
+        "event_type": "WEBSITE_ACCESS",
+        "user": "user1",
+        "description": "Accessed email service",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:13:42",
+        "source": "APPLICATION",
+        "event_type": "FILE_OPEN",
+        "user": "user1",
+        "description": "Opened project_document.docx",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:14:27",
+        "source": "BROWSER",
+        "event_type": "SEARCH",
+        "user": "user1",
+        "description": "Searched for confidential document",
+        "severity": "WARNING"
+    },
+    {
+        "timestamp": "2026-10-05 10:15:32",
+        "source": "SYSTEM",
+        "event_type": "PROCESS_START",
+        "user": "admin",
+        "description": "Windows Update service started",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:16:33",
+        "source": "APPLICATION",
+        "event_type": "SEARCH",
+        "user": "user1",
+        "description": "Searched for confidential files",
+        "severity": "WARNING"
+    },
+    {
+        "timestamp": "2026-10-05 10:17:22",
+        "source": "BROWSER",
+        "event_type": "WEBSITE_ACCESS",
+        "user": "user1",
+        "description": "Accessed company internal portal",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:18:26",
+        "source": "SYSTEM",
+        "event_type": "PROCESS_START",
+        "user": "user1",
+        "description": "Browser process started",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:19:54",
+        "source": "AUTH",
+        "event_type": "LOGIN_SUCCESS",
+        "user": "user1",
+        "description": "Successful authentication",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:20:11",
+        "source": "APPLICATION",
+        "event_type": "LOGIN",
+        "user": "user1",
+        "description": "User logged into application",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:21:08",
+        "source": "BROWSER",
+        "event_type": "WEBSITE_ACCESS",
+        "user": "user1",
+        "description": "Accessed cloud storage",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:22:47",
+        "source": "SYSTEM",
+        "event_type": "FILE_ACCESS",
+        "user": "admin",
+        "description": "Accessed confidential_report.pdf",
+        "severity": "WARNING"
+    },
+    {
+        "timestamp": "2026-10-05 10:23:49",
+        "source": "AUTH",
+        "event_type": "LOGIN_FAILED",
+        "user": "user1",
+        "description": "Failed authentication attempt",
+        "severity": "WARNING"
+    },
+    {
+        "timestamp": "2026-10-05 10:24:15",
+        "source": "APPLICATION",
+        "event_type": "FILE_UPLOAD",
+        "user": "user1",
+        "description": "Uploaded assignment.pdf",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:26:52",
+        "source": "BROWSER",
+        "event_type": "WEBSITE_ACCESS",
+        "user": "admin",
+        "description": "Accessed security dashboard",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:27:36",
+        "source": "APPLICATION",
+        "event_type": "DOWNLOAD",
+        "user": "user1",
+        "description": "Downloaded suspicious_attachment.zip",
+        "severity": "WARNING"
+    },
+    {
+        "timestamp": "2026-10-05 10:28:05",
+        "source": "AUTH",
+        "event_type": "LOGIN_FAILED",
+        "user": "user1",
+        "description": "Failed authentication attempt",
+        "severity": "WARNING"
+    },
+    {
+        "timestamp": "2026-10-05 10:29:41",
+        "source": "BROWSER",
+        "event_type": "DOWNLOAD",
+        "user": "user1",
+        "description": "Downloaded unknown_file.exe",
+        "severity": "WARNING"
+    },
+    {
+        "timestamp": "2026-10-05 10:30:16",
+        "source": "AUTH",
+        "event_type": "PASSWORD_CHANGE",
+        "user": "user1",
+        "description": "User password changed",
+        "severity": "WARNING"
+    },
+    {
+        "timestamp": "2026-10-05 10:31:18",
+        "source": "SYSTEM",
+        "event_type": "FILE_DELETE",
+        "user": "user1",
+        "description": "Deleted temporary evidence file",
+        "severity": "WARNING"
+    },
+    {
+        "timestamp": "2026-10-05 10:33:44",
+        "source": "APPLICATION",
+        "event_type": "LOGOUT",
+        "user": "user1",
+        "description": "User logged out of application",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:34:21",
+        "source": "AUTH",
+        "event_type": "PRIVILEGE_CHANGE",
+        "user": "user1",
+        "description": "User privileges modified",
+        "severity": "ERROR"
+    },
+    {
+        "timestamp": "2026-10-05 10:35:09",
+        "source": "SYSTEM",
+        "event_type": "USB_INSERT",
+        "user": "user1",
+        "description": "USB storage device connected",
+        "severity": "WARNING"
+    },
+    {
+        "timestamp": "2026-10-05 10:36:55",
+        "source": "BROWSER",
+        "event_type": "SEARCH",
+        "user": "user1",
+        "description": "Searched for password recovery tools",
+        "severity": "WARNING"
+    },
+    {
+        "timestamp": "2026-10-05 10:38:32",
+        "source": "AUTH",
+        "event_type": "SESSION_END",
+        "user": "user1",
+        "description": "User authentication session ended",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:39:27",
+        "source": "APPLICATION",
+        "event_type": "ERROR",
+        "user": "system",
+        "description": "Application encountered unexpected error",
+        "severity": "ERROR"
+    },
+    {
+        "timestamp": "2026-10-05 10:41:13",
+        "source": "BROWSER",
+        "event_type": "DOWNLOAD",
+        "user": "user1",
+        "description": "Downloaded report.zip",
+        "severity": "INFO"
+    },
+    {
+        "timestamp": "2026-10-05 10:42:51",
+        "source": "SYSTEM",
+        "event_type": "SHUTDOWN",
+        "user": "system",
+        "description": "System shutdown initiated",
+        "severity": "INFO"
+    }
+]

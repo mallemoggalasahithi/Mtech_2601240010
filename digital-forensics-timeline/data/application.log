@@ -1,0 +1,8 @@
+2026-10-05 10:20:11 | APPLICATION | LOGIN | user1 | User logged into application | INFO
+2026-10-05 10:13:42 | APPLICATION | FILE_OPEN | user1 | Opened project_document.docx | INFO
+2026-10-05 10:27:36 | APPLICATION | DOWNLOAD | user1 | Downloaded suspicious_attachment.zip | WARNING
+2026-10-05 10:09:58 | APPLICATION | LOGIN | admin | Administrator logged into application | INFO
+2026-10-05 10:24:15 | APPLICATION | FILE_UPLOAD | user1 | Uploaded assignment.pdf | INFO
+2026-10-05 10:39:27 | APPLICATION | ERROR | system | Application encountered unexpected error | ERROR
+2026-10-05 10:16:33 | APPLICATION | SEARCH | user1 | Searched for confidential files | WARNING
+2026-10-05 10:33:44 | APPLICATION | LOGOUT | user1 | User logged out of application | INFO

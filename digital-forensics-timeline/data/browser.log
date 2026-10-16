@@ -1,0 +1,8 @@
+2026-10-05 10:17:22 | BROWSER | WEBSITE_ACCESS | user1 | Accessed company internal portal | INFO
+2026-10-05 10:29:41 | BROWSER | DOWNLOAD | user1 | Downloaded unknown_file.exe | WARNING
+2026-10-05 10:12:36 | BROWSER | WEBSITE_ACCESS | user1 | Accessed email service | INFO
+2026-10-05 10:36:55 | BROWSER | SEARCH | user1 | Searched for password recovery tools | WARNING
+2026-10-05 10:21:08 | BROWSER | WEBSITE_ACCESS | user1 | Accessed cloud storage | INFO
+2026-10-05 10:41:13 | BROWSER | DOWNLOAD | user1 | Downloaded report.zip | INFO
+2026-10-05 10:26:52 | BROWSER | WEBSITE_ACCESS | admin | Accessed security dashboard | INFO
+2026-10-05 10:14:27 | BROWSER | SEARCH | user1 | Searched for confidential document | WARNING

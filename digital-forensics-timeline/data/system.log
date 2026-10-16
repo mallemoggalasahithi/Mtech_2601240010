@@ -1,0 +1,8 @@
+2026-10-05 10:15:32 | SYSTEM | PROCESS_START | admin | Windows Update service started | INFO
+2026-10-05 10:08:14 | SYSTEM | BOOT | system | System boot completed | INFO
+2026-10-05 10:22:47 | SYSTEM | FILE_ACCESS | admin | Accessed confidential_report.pdf | WARNING
+2026-10-05 10:11:05 | SYSTEM | SERVICE_START | system | Event Log service started | INFO
+2026-10-05 10:31:18 | SYSTEM | FILE_DELETE | user1 | Deleted temporary evidence file | WARNING
+2026-10-05 10:18:26 | SYSTEM | PROCESS_START | user1 | Browser process started | INFO
+2026-10-05 10:42:51 | SYSTEM | SHUTDOWN | system | System shutdown initiated | INFO
+2026-10-05 10:35:09 | SYSTEM | USB_INSERT | user1 | USB storage device connected | WARNING
